@@ -63,9 +63,7 @@ parameter at a time and compare both the plots and measured values.
 
 Each script creates or refreshes `results/<script_name>/` containing:
 
-- `figure.png`: 320 dpi plot.
 - `figure.pdf`: vector plot.
-- `metrics.json`: measured values and dependency versions.
 
 Example 08 additionally creates `dry.wav` and `wet.wav` (16 kHz, float32 WAV).
 Both files use one shared gain so their level relationship is preserved.
